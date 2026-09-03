@@ -1,5 +1,7 @@
 .hero {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-title {
@@ -9,6 +11,10 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
 
 .hero-button {
@@ -20,6 +26,9 @@
   font-family: inherit;
   cursor: pointer;
   letter-spacing: 0.04em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-button:hover,
